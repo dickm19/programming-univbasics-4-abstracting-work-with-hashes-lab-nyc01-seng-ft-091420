@@ -7,7 +7,9 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  until hash[key] do
-    hash[key] = 1
-  end
+  count = 0
+  while count < hash.length do
+    if key
+      
+    count += 1
 end
